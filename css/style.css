@@ -307,7 +307,7 @@ a{
 }
 footer{
     background-color: #fbe3f1;
-    margin-top: 18em;
+    margin-top: 3em;
     color: #7d778c;
     animation-name: moveInBottom;
     animation-duration: 1s;
@@ -362,3 +362,24 @@ footer{
     transform: skew(6deg);
     border: 1px solid #d53199;
 }
+.footer{
+    background-color: #fbe3f1;
+    margin-top: 23em;
+    color: #7d778c;
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    display: flex;
+    justify-content: space-around;
+  }
+  @keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
