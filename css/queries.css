@@ -80,7 +80,7 @@
         top: 40em;
     }
     .best {
-        margin-top: 16em;
+        margin-top: 34em;
     }
     .about__body {
         font-size: 2em;
@@ -117,12 +117,9 @@
         margin-left: 5em;
         border: none;
     }
-    #more{
-        display: none;
-    }
     img.rect {
-        width: 69em;
-        height: 55em;
+        width: 60em;
+        height: 50em;
     }
     #myBtn {
         background-color: #d53199;
@@ -141,7 +138,7 @@
     }
     .best__image {
         max-width: 1200px;
-        margin: 6em 1em;
+        margin: 6em 5em;
         padding: 0 6em;
         grid-row-gap: 1300px;
         grid-column-gap: 50px;
@@ -154,10 +151,10 @@
     }
     .best__images {
         box-shadow: 0px 4px 50px #dbd2cf;
-        height: 66em;
+        height: 61em;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
-        width: 73em;
+        width: 60em;
         border-top-left-radius: 25px;
     }
     .pictures {
@@ -228,9 +225,9 @@
     footer {
         flex-direction: column;
         text-align: center;
-        width: 42em;
+        width: 35em;
         font-size: 2em;
-        color: #d53199;
+        margin-top: 40em;
     }
     .footer__list {
         display: flex;
@@ -251,7 +248,7 @@
         margin-top: 16px;
         display: block;
         width: 2em;
-        margin-left: 32em;
+        margin-left: 26em;
     }
     .header {
         display: flex;
@@ -300,10 +297,15 @@
         background-color: #fff;
         margin-left: 17em;
     }
+    .pictures {
+        position: relative;
+        top: 13em;
+        height: 56em;
+    }
     .about {
         background-color: #fbe3f1;
         height: 76vh;
-        width: 84em;
+        width: 70em;
     }
     .about__shoe {
         position: relative;
@@ -315,7 +317,7 @@
         position: relative;
         top: -46em;
         width: 37em;
-        left: 6em;
+        left: 2em;
     }
     .about__box {
         background-color: #fff;
@@ -375,7 +377,8 @@
         white-space: nowrap;
         height: 4em;
         position: relative;
-        left: 21em;
+        left: 15em;
+        top: 4em;
     }
     .best__image {
         max-width: 1200px;
@@ -390,11 +393,8 @@
         grid-auto-rows: 38px;
         margin-top: 7em;
     }
-    #more{
-        display: none;
-    }
     img.rect {
-        width: 69em;
+        width: 53em;
         height: 55em;
     }
     .best__images {
@@ -402,13 +402,10 @@
         height: 66em;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
-        width: 73em;
+        width: 53em;
         border-top-left-radius: 25px;
     }
-    .pictures {
-        position: relative;
-        top: 13em;
-    }
+  
     .best__picture--text {
         padding-left: 1em;
         font-size: 2em;
@@ -433,7 +430,7 @@
     .arrival {
         flex-direction: column;
         text-align: center;
-        margin-top: 60em;
+        margin-top: 57em;
     }
     .money {
         float: right;
@@ -444,6 +441,9 @@
     .arrival__head {
         font-size: 5em;
         margin-bottom: 1em;
+    }
+    .arrival__message {
+        margin-right: -7em;
     }
     .arrival__paragraph {
         line-height: 2em;
@@ -474,9 +474,9 @@
     footer {
         flex-direction: column;
         text-align: center;
-        width: 42em;
+        width: 35em;
         font-size: 2em;
-        
+        margin-top: 35em;
     }
     .footer__list {
         display: flex;
@@ -490,10 +490,10 @@
 @media only screen and (max-width:767px){
     .header__icon {
         cursor: pointer;
-        margin-top: 16px;
+        margin-top: -17px;
         display: block;
         width: 2em;
-        margin-left: 5em;
+        margin-left: 10em;
     }
     .header {
         display: flex;
@@ -515,7 +515,8 @@
         display: block;
     }
     img.close {
-        width: 2em;
+        width: 1em;
+        margin-left: -2em;
     
         margin-top: 1em;
     }
@@ -532,7 +533,7 @@
         transition: all.5s;
         line-height: 1.5em;
         font-size: 2em;
-        margin-left: 5em;
+        margin-left: 3em;
     }
     .heels {
         margin-left: 1em;
@@ -575,10 +576,10 @@
 @media only screen and (max-width:480px){
     .header__icon {
         cursor: pointer;
-        margin-top: 16px;
+        margin-top: -17px;
         display: block;
         width: 2em;
-        margin-left: 5em;
+        margin-left: 10em;
     }
     .header {
         display: flex;
@@ -599,15 +600,17 @@
         display: block;
     }
     img.close {
-        width: 2em;
-      
+        width: 1em;
+        margin-left: -2em;
+    
+        margin-top: 1em;
     }
     .header__list {
         flex-direction: column;
         margin-top: 3.5em;
         position: fixed;
-        width: 103%;
-        height: 16em;
+        width: 68%;
+        height: 14em;
         background: white;
         color: hsl(228, 39%, 23%);
         display: none;
@@ -615,6 +618,7 @@
         transition: all.5s;
         line-height: 1.5em;
         font-size: 2em;
+        margin-left: 3em;
     }
     .heels {
         margin-left: 1em;

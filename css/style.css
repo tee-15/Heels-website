@@ -140,16 +140,16 @@ input[type="search"] {
     margin-top: 3em;
     color: #7d778c;
 }
-.about__shoe{
+.about__shoe {
     position: relative;
     top: -18em;
-    width: 25em;
-    left: 8em;
+    width: 23em;
+    left: 9em;
 }
-.about__shoes{
+.about__shoes {
     position: relative;
-    top: -15em;
-    width: 35em;
+    top: -17em;
+    width: 32em;
     left: 11.9em;
 }
 div#div1 {
@@ -183,9 +183,13 @@ div#div1 {
     border: none;
     display: none;
 }
-.best{
-    margin-top: -10em;
+.best {
+    margin-top: 7em;
 }
+.rect{
+    width: 13em;
+}
+
 .word{
     font-size: 1.7em;
     color: #7d778c;
@@ -195,9 +199,10 @@ div#div1 {
 }
 .best__images{
     box-shadow: 0px 4px 50px #dbd2cf;
-    height: 25em;
+    height: 22em;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    width: 15em;
 }  
 .money{
     float: right;
@@ -219,7 +224,7 @@ span#more {
 }
 a{
     text-decoration: none;
-    color: #fff;
+  
 }
 .arrival{
     margin-top: 2em;
@@ -302,7 +307,7 @@ a{
 }
 footer{
     background-color: #fbe3f1;
-    margin-top: 7em;
+    margin-top: 18em;
     color: #7d778c;
     animation-name: moveInBottom;
     animation-duration: 1s;
